@@ -1,5 +1,5 @@
 {
-  "homepage": "https://petrosyanart.github.io/react-clicky-game/",
+  "homepage": "https://petrosyanart.github.io/react-clicky-game",
   "name": "react-game",
   "version": "0.1.0",
   "private": true,
@@ -9,8 +9,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "yarn build && gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
